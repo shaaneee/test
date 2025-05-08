@@ -19,7 +19,7 @@ def test_bubble_sort_descending():
     assert (result == test_arr)
 
 def test_bubble_sort_invalid():
-    result = []
+    result = 0
     input_arr = [64, 34, 25, 12, 22, 11, 90]
 
     result = Lab3.bubble_sort(input_arr, 3)
